@@ -6,6 +6,7 @@ import Para from './components/Para'
 import Mentors from './components/Mentors'
 import Carousel from './components/Carousel'
 import Process from './components/Process'
+import Team from './components/Team'
 
 
 function App() {
@@ -17,9 +18,8 @@ function App() {
       <Marquee/>
       <Para/>
       <Mentors/>
-      <Carousel/>
       <Process/>
-      
+      <Team/>
       </div>
       
     </div>

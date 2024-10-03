@@ -11,10 +11,10 @@ const images=[
 console.log(images);
 
   return (
-    <div className="text-center mt-40 ">
+    <div className="text-center mt-40 h-[600px] ">
         <h1 className="text-5xl">Our Mentors.</h1>
         <p className="text-lg my-5">Meet our talented team proud in delivering your brand's logo.</p>
-        <Carousel images={images} space={10} slides={2}/>
+        <Carousel images={images} space={10} slides={2.3}/>
     </div>
   )
 }

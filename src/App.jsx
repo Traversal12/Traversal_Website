@@ -7,19 +7,21 @@ import Mentors from './components/Mentors'
 import Carousel from './components/Carousel'
 import Process from './components/Process'
 import Team from './components/Team'
+import Footer from './components/Footer'
 
 
 function App() {
   return (
     <div className='w-full h-full bg-[#0d0d0d] text-white' >
-      <div className='max-w-screen-lg mx-auto'>
       <Navbar/>
+      <div className='max-w-screen-lg mx-auto'>
       <Hero/>
       <Marquee/>
       <Para/>
       <Mentors/>
       <Process/>
       <Team/>
+      <Footer/>
       </div>
       
     </div>

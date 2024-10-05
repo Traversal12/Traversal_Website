@@ -3,7 +3,7 @@ import Button from './Button'
 
 function Hero() {
   return (
-    <div className='max-w-screen-lg mx-auto mt-36'>
+    <div className=' max-w-screen-lg mx-auto mt-28 relative z-10'>
     <p className='text-7xl'>Elevate your Skills with Traversal get industry ready.
    </p>
    <p className='text-xl pt-6'> Design agency crafting minimal brand identities that speaks volumes.</p>

@@ -3,11 +3,11 @@ import geu from '../assets/geu_logo.png'
 
 function Footer() {
   return (
-    <div className='flex justify-between mt-24 p-10 '>
+    <div className='flex justify-between mt-24 p-10 pb-32 z-10 relative  '>
         <div className='w-24'>
             <img src={img} alt="" />
         </div>
-        <div className='text-sm pr-28'>
+        <div className=' pr-28 font-semibold'>
             <ul>
                 <li>WhatsApp</li>
                 <li>Instagram</li>

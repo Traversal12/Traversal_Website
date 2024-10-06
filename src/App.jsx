@@ -10,12 +10,14 @@ import Team from './components/Team'
 import Footer from './components/Footer'
 import MeshGradient from './components/MeshGradient'
 import LocomotiveScroll from 'locomotive-scroll';
+import Cursor from './components/Cursor'
 
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full h-full bg-[#0d0d0d] text-white relative ' >
+    <div className='w-full h-full bg-[#0d0d0d] text-white relative' >
+      <Cursor/>
       <Navbar/>
       <div className='max-w-screen-lg mx-auto'>
       <Hero/>

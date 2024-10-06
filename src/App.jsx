@@ -9,9 +9,11 @@ import Process from './components/Process'
 import Team from './components/Team'
 import Footer from './components/Footer'
 import MeshGradient from './components/MeshGradient'
+import LocomotiveScroll from 'locomotive-scroll';
 
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full h-full bg-[#0d0d0d] text-white relative ' >
       <Navbar/>
@@ -26,9 +28,8 @@ function App() {
       <Footer/>
       <MeshGradient size={"w-[95%] h-[5%]"} position={"bottom-0 left-56"} />
       </div>
-      
     </div>
   )
 }
 
-export default App
+export default App 

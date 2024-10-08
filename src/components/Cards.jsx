@@ -1,15 +1,15 @@
-import React from 'react'
-import Card from './Card'
+import Card from './Card';
 
 function Cards() {
   return (
-    <div className='flex gap-6 flex-wrap'>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+    <div className="flex flex-wrap justify-center">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      {/* Add more Card components as needed */}
     </div>
-  )
+  );
 }
 
-export default Cards
+export default Cards;
